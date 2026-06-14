@@ -16,7 +16,7 @@ public:
     StorageCell(int p_number, double p_max_size, std::vector<Product> p_list_of_tovars);
     int getNumber() const;
     double getMax_size() const;
-    std::vector<Product> getList_of_tovars() const;  // только const, возвращает копию
+    std::vector<Product> getList_of_tovars() const; 
     void addTovar(const Product& product);
     void deleteTovar(int productId);
     std::string findTovar(int id2);
